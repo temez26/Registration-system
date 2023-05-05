@@ -16,7 +16,7 @@ const int MAX_ATTEMPTS = 3;
 const int LOCK_TIME = 10; // seconds
 const int SALT_SIZE = 32;
 const int HASH_SIZE = 32;
-
+// Function to generate a random salt of size SALT_SIZE
 string generateSalt()
 {
     unsigned char salt[SALT_SIZE];
@@ -29,7 +29,7 @@ string generateSalt()
     }
     return oss.str();
 }
-
+// Function to generate a hash of the given password and salt using SHA-256 algorithm
 string generateHash(string password, string salt)
 {
     unsigned char hash[HASH_SIZE];
@@ -50,7 +50,7 @@ string generateHash(string password, string salt)
     }
     return oss.str();
 }
-
+// Function to check if the user with the given username is locked
 bool isUserLocked(string username)
 {
     ifstream lock_file(username + ".lock");
@@ -71,7 +71,7 @@ bool isUserLocked(string username)
     }
     return false;
 }
-
+// add user and checks if user exists
 void registerUser()
 {
     string username, password;
