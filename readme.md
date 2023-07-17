@@ -39,6 +39,3 @@ There are several functions in the program that perform various tasks:
 - `registerUser()`: Registers a new user.
 - `loginUser()`: Logs in an existing user.
 
-## Contributing
-
-Contributions are welcome! If you find a bug or want to add a new feature, feel free to create an issue or pull request.
