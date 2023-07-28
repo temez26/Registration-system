@@ -6,7 +6,7 @@ This is a command-line user authentication system written in C++ that allows use
 
 This program requires the following libraries to be installed:
 
-- OpenSSL: Provides cryptographic functionality for the salt and hash functions
+- OpenSSL
 
 
 ## Usage
