@@ -8,9 +8,7 @@ This program requires the following libraries to be installed:
 
 - OpenSSL
 
-
 ## Usage
-
 
 1. Register: Allows users to register a new account by entering a username and password.
 2. Login: Allows users to login to an existing account by entering a username and password.
